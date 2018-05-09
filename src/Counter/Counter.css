@@ -1,0 +1,19 @@
+.Counter {
+    font-size: 2em;
+}
+
+.Counter__button {
+    border: none;
+    font-size: 2em;
+    padding: 10px 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.Counter__button--increment {
+    background-color: green;
+}
+
+.Counter__button--decrement {
+    background-color: red;
+}
