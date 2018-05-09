@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter Should increment the counter by one when calling increment() 1`] = `
+<div
+  className="Counter"
+>
+  <h2>
+    1
+  </h2>
+  <button
+    className="Counter__button Counter__button--decrement"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <button
+    className="Counter__button Counter__button--increment"
+    onClick={[Function]}
+  >
+    +
+  </button>
+</div>
+`;
+
+exports[`Counter Should render with a counter value and buttons 1`] = `
+<div
+  className="Counter"
+>
+  <h2>
+    0
+  </h2>
+  <button
+    className="Counter__button Counter__button--decrement"
+    onClick={[Function]}
+  >
+    -
+  </button>
+  <button
+    className="Counter__button Counter__button--increment"
+    onClick={[Function]}
+  >
+    +
+  </button>
+</div>
+`;
