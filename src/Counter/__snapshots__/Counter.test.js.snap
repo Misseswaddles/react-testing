@@ -1,5 +1,31 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Counter Should decrement when clicking on the decrement button 1`] = `
+<Counter
+  initialValue={0}
+>
+  <div
+    className="Counter"
+  >
+    <h2>
+      -2
+    </h2>
+    <button
+      className="Counter__button Counter__button--decrement"
+      onClick={[Function]}
+    >
+      -
+    </button>
+    <button
+      className="Counter__button Counter__button--increment"
+      onClick={[Function]}
+    >
+      +
+    </button>
+  </div>
+</Counter>
+`;
+
 exports[`Counter Should increment when clicking on the increment button 1`] = `
 <Counter
   initialValue={0}
