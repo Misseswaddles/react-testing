@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing (enzyme version) 1`] = `
+<div
+  className="App"
+>
+  <h1>
+    My Counters
+  </h1>
+  <Counter
+    initialValue={0}
+  />
+  <Counter
+    initialValue={0}
+  />
+</div>
+`;
